@@ -13,20 +13,20 @@
 
 <meta property="og:description" content="">
 <meta property="og:type" content="article">
-<meta property="og:title" content="IsOdd">
-<meta name="twitter:title" content="IsOdd">
-<meta property="og:url" content="https://tzq0301.github.io/2020/03/isodd/">
-<meta property="twitter:url" content="https://tzq0301.github.io/2020/03/isodd/">
+<meta property="og:title" content="SetViewing">
+<meta name="twitter:title" content="SetViewing">
+<meta property="og:url" content="https://tzq0301.github.io/2020/03/setviewing/">
+<meta property="twitter:url" content="https://tzq0301.github.io/2020/03/setviewing/">
 <meta property="og:site_name" content="Tzq&#39;s Blog">
 <meta property="og:description" content="">
 <meta name="twitter:description" content="">
 <meta property="og:locale" content="zh-cn">
 
   
-    <meta property="article:published_time" content="2020-03-22T14:44:42">
+    <meta property="article:published_time" content="2020-03-22T15:07:33">
   
   
-    <meta property="article:modified_time" content="2020-03-22T14:44:42">
+    <meta property="article:modified_time" content="2020-03-22T15:07:33">
   
   
   
@@ -65,7 +65,7 @@
   <meta property="twitter:image" content="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=640">
 
 
-    <title>IsOdd</title>
+    <title>SetViewing</title>
 
     <link rel="icon" href="https://tzq0301.github.io/favicon.png">
     
@@ -74,7 +74,7 @@
       <link rel="publisher" href="https://plus.google.com/&#43;thibaudlepretre">
     
 
-    <link rel="canonical" href="https://tzq0301.github.io/2020/03/isodd/">
+    <link rel="canonical" href="https://tzq0301.github.io/2020/03/setviewing/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -234,13 +234,13 @@
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      IsOdd
+      SetViewing
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2020-03-22T14:44:42&#43;08:00">
+      <time itemprop="datePublished" datetime="2020-03-22T15:07:33&#43;08:00">
         
   三月 22, 2020
 
@@ -263,42 +263,13 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>#Java语言 判断奇偶性</p>
-<ul>
-<li><strong>法一：运用求余符号“%”</strong></li>
-</ul>
-<pre><code>public boolean isOdd(int i)
-{
-    if (i % 2 == 1)
-        return true;
-    else
-        return false;
-}
-</code></pre><blockquote>
-<p>观察到if之后的判断语句是boolean类型的，可以直接使用return该语句做返回</p>
-</blockquote>
-<pre><code>public boolean isOdd(int i)
-{
-    return i % 2 == 1;
-}
-</code></pre><blockquote>
-<p>有的人会假定改成与可以输入负数，那我们就改成以下代码</p>
-</blockquote>
-<pre><code>public boolean isOdd(int i)
-{
-    return i % 2 != 0;
-}
-</code></pre><ul>
-<li><strong>法二：运用位运算</strong></li>
-</ul>
+              <h1 id="使用foreach方法快速遍历map"><strong>使用forEach方法快速遍历map</strong></h1>
 <blockquote>
-<p>如果只使用上一方法，则体现不出你的水平
-位运算可以大大增加运行时的速度，进而提高产品质量</p>
+<p>利用lambda表达式快速遍历map</p>
 </blockquote>
-<pre><code>public boolean isOdd(int i)
-{
-    return (i &amp; 1) == 1;
-}
+<pre><code>map.forEach((k, v) -&gt; {
+    do something with k, v
+});
 </code></pre>
               
             </div>
@@ -326,7 +297,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://tzq0301.github.io/2020/03/setviewing/" data-tooltip="SetViewing">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -334,7 +305,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://tzq0301.github.io/2020/03/isodd/" data-tooltip="IsOdd">
               
                   <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
                   <i class="fa fa-angle-right"></i>
@@ -352,19 +323,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tzq0301.github.io/2020/03/isodd/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tzq0301.github.io/2020/03/setviewing/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tzq0301.github.io/2020/03/isodd/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tzq0301.github.io/2020/03/setviewing/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://tzq0301.github.io/2020/03/isodd/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://tzq0301.github.io/2020/03/setviewing/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -412,7 +383,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--default tooltip--top" href="https://tzq0301.github.io/2020/03/setviewing/" data-tooltip="SetViewing">
+                <a class="post-action-btn btn btn--disabled">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
@@ -420,7 +391,7 @@
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://tzq0301.github.io/2020/03/isodd/" data-tooltip="IsOdd">
               
                   <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
                   <i class="fa fa-angle-right"></i>
@@ -438,19 +409,19 @@
         </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tzq0301.github.io/2020/03/isodd/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://tzq0301.github.io/2020/03/setviewing/">
               <i class="fa fa-facebook-official"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tzq0301.github.io/2020/03/isodd/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://tzq0301.github.io/2020/03/setviewing/">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
         
           <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://tzq0301.github.io/2020/03/isodd/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https://tzq0301.github.io/2020/03/setviewing/">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -480,19 +451,19 @@
   <ul class="share-options">
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftzq0301.github.io%2F2020%2F03%2Fisodd%2F">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftzq0301.github.io%2F2020%2F03%2Fsetviewing%2F">
           <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ftzq0301.github.io%2F2020%2F03%2Fisodd%2F">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ftzq0301.github.io%2F2020%2F03%2Fsetviewing%2F">
           <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
         </a>
       </li>
     
       <li class="share-option">
-        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Ftzq0301.github.io%2F2020%2F03%2Fisodd%2F">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3A%2F%2Ftzq0301.github.io%2F2020%2F03%2Fsetviewing%2F">
           <i class="fa fa-google-plus"></i><span>分享到 Google&#43;</span>
         </a>
       </li>
@@ -584,9 +555,9 @@ $(document).ready(function() {
     
       <script>
         var disqus_config = function () {
-          this.page.url = 'https:\/\/tzq0301.github.io\/2020\/03\/isodd\/';
+          this.page.url = 'https:\/\/tzq0301.github.io\/2020\/03\/setviewing\/';
           
-            this.page.identifier = '\/2020\/03\/isodd\/'
+            this.page.identifier = '\/2020\/03\/setviewing\/'
           
         };
         (function() {
