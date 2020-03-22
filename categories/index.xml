@@ -12,20 +12,38 @@
     
     
     <item>
-      <title>category</title>
-      <link>https://tzq0301.github.io/categories/category/</link>
+      <title>hugo相关</title>
+      <link>https://tzq0301.github.io/categories/hugo%E7%9B%B8%E5%85%B3/</link>
       <pubDate>Sun, 22 Mar 2020 18:27:18 +0800</pubDate>
       
-      <guid>https://tzq0301.github.io/categories/category/</guid>
+      <guid>https://tzq0301.github.io/categories/hugo%E7%9B%B8%E5%85%B3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>subcategory</title>
-      <link>https://tzq0301.github.io/categories/subcategory/</link>
-      <pubDate>Sun, 22 Mar 2020 18:27:18 +0800</pubDate>
+      <title>java</title>
+      <link>https://tzq0301.github.io/categories/java/</link>
+      <pubDate>Sun, 22 Mar 2020 15:07:33 +0800</pubDate>
       
-      <guid>https://tzq0301.github.io/categories/subcategory/</guid>
+      <guid>https://tzq0301.github.io/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>集合</title>
+      <link>https://tzq0301.github.io/categories/%E9%9B%86%E5%90%88/</link>
+      <pubDate>Sun, 22 Mar 2020 15:07:33 +0800</pubDate>
+      
+      <guid>https://tzq0301.github.io/categories/%E9%9B%86%E5%90%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>算法</title>
+      <link>https://tzq0301.github.io/categories/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Sun, 22 Mar 2020 14:44:42 +0800</pubDate>
+      
+      <guid>https://tzq0301.github.io/categories/%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     

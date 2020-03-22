@@ -8,22 +8,17 @@
   </url>
   
   <url>
-    <loc>https://tzq0301.github.io/categories/category/</loc>
-    <lastmod>2020-03-22T18:27:18+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tzq0301.github.io/tags/hugo%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2020-03-22T18:27:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tzq0301.github.io/post/</loc>
+    <loc>https://tzq0301.github.io/categories/hugo%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2020-03-22T18:27:18+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tzq0301.github.io/categories/subcategory/</loc>
+    <loc>https://tzq0301.github.io/post/</loc>
     <lastmod>2020-03-22T18:27:18+08:00</lastmod>
   </url>
   
@@ -43,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://tzq0301.github.io/categories/java/</loc>
+    <lastmod>2020-03-22T15:07:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tzq0301.github.io/2020/03/%E4%BD%BF%E7%94%A8foreach%E6%96%B9%E6%B3%95%E9%81%8D%E5%8E%86map/</loc>
     <lastmod>2020-03-22T15:07:33+08:00</lastmod>
   </url>
@@ -53,12 +53,22 @@
   </url>
   
   <url>
+    <loc>https://tzq0301.github.io/categories/%E9%9B%86%E5%90%88/</loc>
+    <lastmod>2020-03-22T15:07:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tzq0301.github.io/2020/03/isodd/</loc>
     <lastmod>2020-03-22T14:44:42+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://tzq0301.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2020-03-22T14:44:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tzq0301.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2020-03-22T14:44:42+08:00</lastmod>
   </url>
   
