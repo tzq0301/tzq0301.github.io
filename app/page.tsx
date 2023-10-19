@@ -131,7 +131,7 @@ export default function Home() {
                             }
                             right={
                                 <div>
-                                    <div>Golang 后端研发实习生 & <text className={'text-gray-800'}><Tooltip
+                                    <div>Golang 后端研发实习生 & <text className={'text-gray-500'}><Tooltip
                                         title={'原后端正式员工离职后，本人开始负责（1）需求评审（2）团队对接（3）日常编码（4）带实习生一名'}>临时</Tooltip>
                                     </text>后端研发负责人 <span className={'font-bold'}>@</span> AI 爱家事业部
                                     </div>
