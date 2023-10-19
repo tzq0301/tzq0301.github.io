@@ -221,8 +221,8 @@ export default function Home() {
                         <ListItem left={'Mar 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/613615100'} bold={false}>自动发布 Maven Package —— 基于 GitHub Actions 与 OSSRH（sonatype）</UrlLink>}/>
                         <ListItem left={'Mar 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/590967429'} bold={false}>通过 GitHub Actions 完成 Spring Boot 项目的 CI/CD（基于 Docker）</UrlLink>}/>
                         <ListItem left={'Dec 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/591189491'} bold={false}>什么是微服务动态更新 & 为什么要用 Version Consistency 进行动态更新</UrlLink>}/>
-                        <ListItem left={'Dec 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/589314371'} bold={false}>2022 技术年度复盘</UrlLink>}/>
-                        <ListItem left={'Oct 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/502719456'} bold={false}>2022 年计算机保研经历｜Rank 中游、无一作、竞赛少、无实习、无优质项目的中游选手｜天大云计算、南大软件所、中南计算机、中山计算机、中山软件、川大计算机</UrlLink>}/>
+                        <ListItem left={'Dec 2022'} right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/589314371'} bold={false}>2022 技术年度复盘</UrlLink>&nbsp;(63 agreed, as of 2023.10.19)</div>}/>
+                        <ListItem left={'Oct 2022'} right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/502719456'} bold={false}>2022 年计算机保研经历｜Rank 中游、无一作、竞赛少、无实习、无优质项目的中游选手｜天大云计算、南大软件所、中南计算机、中山计算机、中山软件、川大计算机</UrlLink>&nbsp;(102 agreed, as of 2023.10.19)</div>}/>
                         <ListItem left={'Aug 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/560385045'} bold={false}>怎么进行你的代码优化 & 编译器怎么优化你的代码</UrlLink>}/>
                         <ListItem left={'Aug 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/552691239'} bold={false}>Spring Boot 使用 .env 文件实现“隐私信息配置”</UrlLink>}/>
                         <ListItem left={'Jul 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/547390956'} bold={false}>微信小程序应用开发赛 —— 怎么至少不把一个产品做差</UrlLink>}/>
@@ -302,6 +302,10 @@ export default function Home() {
                         <ListItem left={'Oct 2020'} right={'四川大学优秀学生'}/>
                     </List>
                 </div>
+
+                <div className={'h-32'}></div>
+
+
 
                 <div className={'h-32'}></div>
             </div>
