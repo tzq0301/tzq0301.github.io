@@ -136,7 +136,7 @@ export default function Home() {
                                     </text>后端研发负责人 <span className={'font-bold'}>@</span> AI 爱家事业部
                                     </div>
                                     <Br/>
-                                    <div>2023.6 ~ 2023.8</div>
+                                    <div>2023.6 ~ 2023.8<Separator/>Chengdu (China)</div>
                                 </div>
                             }/>
                         <TableRow
@@ -152,7 +152,7 @@ export default function Home() {
                                         className={'font-bold'}>@</span> 抖音电商平台治理（产品研发和工程架构部）
                                     </div>
                                     <Br/>
-                                    <div>2022.11 ~ 2023.2</div>
+                                    <div>2022.11 ~ 2023.2<Separator/>Hangzhou (China)</div>
                                 </div>
                             }/>
                     </Table>
