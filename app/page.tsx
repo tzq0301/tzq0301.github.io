@@ -212,6 +212,7 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'} bold={false}>关于“全局变量”对程序的上下文造成的全局“污染”</UrlLink> }/>
                         <ListItem left={'Sep 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/655182770'} bold={false}>Redis 分布式锁 Factory 模式 API 实现</UrlLink> }/>
                         <ListItem left={'Aug 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/649440256'} bold={false}>处理 ChatGPT 的 API HTTP 流式响应 & 超时控制</UrlLink> }/>
                         <ListItem left={'Aug 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/650602668'} bold={false}>GORM 使用真实 MySQL 进行 repo 层单元测试</UrlLink> }/>
