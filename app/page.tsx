@@ -29,6 +29,28 @@ export default function Home() {
 
                 <div className={'h-16'}></div>
 
+                <div className={'flex flex-col items-center'}>
+                    <div>
+                        <UrlLink url={'#education'} underline={false} fontSize={'text-sm'}>Education</UrlLink>
+                        <Separator/>
+                        <UrlLink url={'#work-experience'} underline={false} fontSize={'text-sm'}>Work Experience</UrlLink>
+                        <Separator/>
+                        <UrlLink url={'#open-source'} underline={false} fontSize={'text-sm'}>Open Source Contributions</UrlLink>
+                    </div>
+                    <Br/>
+                    <div>
+                        <UrlLink url={'#researches'} underline={false} fontSize={'text-sm'}>Researches</UrlLink>
+                        <Separator/>
+                        <UrlLink url={'#blogs'} underline={false} fontSize={'text-sm'}>Blogs</UrlLink>
+                        <Separator/>
+                        <UrlLink url={'#projects'} underline={false} fontSize={'text-sm'}>Projects</UrlLink>
+                        <Separator/>
+                        <UrlLink url={'#honors-awards'} underline={false} fontSize={'text-sm'}>Honors & Awards</UrlLink>
+                    </div>
+                </div>
+
+                <div className={'h-16'}></div>
+
                 <div>
                     <Paragraph>Hey, I&apos;m <Bold>Tong Zhaoqi</Bold> I&apos;m currently doing research
                         at <UrlLink
@@ -66,7 +88,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'education'}>
                     <div className={'text-2xl'}>Education</div>
                     <Br/>
                     <Br/>
@@ -118,7 +140,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'work-experience'}>
                     <div className={'text-2xl'}>Work Experience</div>
                     <Br/>
                     <Br/>
@@ -160,7 +182,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'open-source'}>
                     <div className={'text-2xl'}>Open Source Contributions</div>
                     <Br/>
                     <Br/>
@@ -183,7 +205,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'researches'}>
                     <div className={'text-2xl'}>Researches</div>
                     <Br/>
                     <Br/>
@@ -207,7 +229,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'blogs'}>
                     <div className={'text-2xl'}>Blogs <text className={'text-base'}>(selected)</text></div>
                     <Br/>
                     <Br/>
@@ -235,7 +257,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'projects'}>
                     <div className={'text-2xl'}>Projects</div>
                     <Br/>
                     <Br/>
@@ -277,7 +299,7 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div>
+                <div id={'honors-awards'}>
                     <div className={'text-2xl'}>Honors & Awards</div>
                     <Br/>
                     <Br/>
@@ -306,9 +328,6 @@ export default function Home() {
 
                 <div className={'h-32'}></div>
 
-
-
-                <div className={'h-32'}></div>
             </div>
         </div>
     )
