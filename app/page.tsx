@@ -33,9 +33,11 @@ export default function Home() {
                     <div>
                         <UrlLink url={'#education'} underline={false} fontSize={'text-sm'}>Education</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#work-experience'} underline={false} fontSize={'text-sm'}>Work Experience</UrlLink>
+                        <UrlLink url={'#work-experience'} underline={false} fontSize={'text-sm'}>Work
+                            Experience</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#open-source'} underline={false} fontSize={'text-sm'}>Open Source Contributions</UrlLink>
+                        <UrlLink url={'#open-source'} underline={false} fontSize={'text-sm'}>Open Source
+                            Contributions</UrlLink>
                     </div>
                     <Br/>
                     <div>
@@ -191,12 +193,48 @@ export default function Home() {
                                                  underline={false}>dominikbraun/graph</UrlLink>}
                                   right={
                                       <div>
-                                          <div>A library for creating <Bold><text className={'italic'}>generic graph data structures</text></Bold> and modifying, analyzing, and visualizing them (1.4k Stars)</div>
+                                          <div>A library for creating <Bold>
+                                              <text className={'italic'}>generic graph data structures</text>
+                                          </Bold> and modifying, analyzing, and visualizing them (1.4k Stars)
+                                          </div>
                                           <Br/>
                                           <ul className={'list-disc ms-4'}>
-                                              <li><UrlLink url={'https://github.com/dominikbraun/graph/pull/137'}>PR#137</UrlLink>:&nbsp;<text>List all paths between two given vertices, implemented by dual-stack (which is non-recursive)</text><Separator/><UrlLink url={'https://zhuanlan.zhihu.com/p/642134590'} bold={false}>知乎：图中给定两个节点，找出两点之间全部路径（非递归方法）</UrlLink></li>
+                                              <li><UrlLink
+                                                  url={'https://github.com/dominikbraun/graph/pull/137'}>PR#137</UrlLink>:&nbsp;
+                                                  <text>List all paths between two given vertices, implemented by
+                                                      dual-stack (which is non-recursive)
+                                                  </text>
+                                                  <Separator/><UrlLink url={'https://zhuanlan.zhihu.com/p/642134590'}
+                                                                       bold={false}>知乎：图中给定两个节点，找出两点之间全部路径（非递归方法）</UrlLink>
+                                              </li>
                                               <Br/>
-                                              <li><UrlLink url={'https://github.com/dominikbraun/graph/pull/86'}>PR#86</UrlLink>,&nbsp;<UrlLink url={'https://github.com/dominikbraun/graph/pull/140'}>PR#140</UrlLink>:&nbsp;<text>修复并优化 GitHub Actions CI workflow、解决 golangci-lint 版本依赖问题、增加 Go 多版本 CI Matrix Testing</text></li>
+                                              <li><UrlLink
+                                                  url={'https://github.com/dominikbraun/graph/pull/86'}>PR#86</UrlLink>,&nbsp;
+                                                  <UrlLink
+                                                      url={'https://github.com/dominikbraun/graph/pull/140'}>PR#140</UrlLink>:&nbsp;
+                                                  <text>修复并优化 GitHub Actions CI workflow、解决 golangci-lint
+                                                      版本依赖问题、增加 Go 多版本 CI Matrix Testing
+                                                  </text>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  }/>
+                        <TableRow left={<UrlLink url={'https://github.com/redis/go-redis'}
+                                                 underline={false}>redis/go-redis</UrlLink>}
+                                  right={
+                                      <div>
+                                          <Bold>
+                                              <text className={'italic'}>Redis Go client</text>
+                                          </Bold> (18.2k Stars)
+                                          <Br/>
+                                          <ul className={'list-disc ms-4'}>
+                                              <li>
+                                                  <UrlLink
+                                                      url={'https://github.com/redis/go-redis/pull/2753'}>PR#2753</UrlLink>:&nbsp;
+                                                  <text>
+                                                      Support writing args with <text className={'italic'}>the pointer type of the simple data types</text> for the redis-protocol writer
+                                                  </text>
+                                              </li>
                                           </ul>
                                       </div>
                                   }/>
@@ -234,24 +272,59 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
-                        <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'} bold={false}>关于“全局变量”对程序的上下文造成的全局“污染”</UrlLink> }/>
-                        <ListItem left={'Sep 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/655182770'} bold={false}>Redis 分布式锁 Factory 模式 API 实现</UrlLink> }/>
-                        <ListItem left={'Aug 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/649440256'} bold={false}>处理 ChatGPT 的 API HTTP 流式响应 & 超时控制</UrlLink> }/>
-                        <ListItem left={'Aug 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/650602668'} bold={false}>GORM 使用真实 MySQL 进行 repo 层单元测试</UrlLink> }/>
-                        <ListItem left={'Jul 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/642655472'} bold={false}>Go 阻塞式 select channel 替代长轮询</UrlLink> }/>
-                        <ListItem left={'Jul 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/642134590'} bold={false}>图中给定两个节点，找出两点之间全部路径（非递归方法）</UrlLink> }/>
-                        <ListItem left={'Mar 2023'} right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/617415742'} bold={false}>CS/SE 保研经验分享</UrlLink>&nbsp;(43 agreed, as of 2023.10.19)</div> }/>
-                        <ListItem left={'Mar 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/613615100'} bold={false}>自动发布 Maven Package —— 基于 GitHub Actions 与 OSSRH（sonatype）</UrlLink>}/>
-                        <ListItem left={'Mar 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/590967429'} bold={false}>通过 GitHub Actions 完成 Spring Boot 项目的 CI/CD（基于 Docker）</UrlLink>}/>
-                        <ListItem left={'Dec 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/591189491'} bold={false}>什么是微服务动态更新 & 为什么要用 Version Consistency 进行动态更新</UrlLink>}/>
-                        <ListItem left={'Dec 2022'} right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/589314371'} bold={false}>2022 技术年度复盘</UrlLink>&nbsp;(63 agreed, as of 2023.10.19)</div>}/>
-                        <ListItem left={'Oct 2022'} right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/502719456'} bold={false}>2022 年计算机保研经历｜Rank 中游、无一作、竞赛少、无实习、无优质项目的中游选手｜天大云计算、南大软件所、中南计算机、中山计算机、中山软件、川大计算机</UrlLink>&nbsp;(102 agreed, as of 2023.10.19)</div>}/>
-                        <ListItem left={'Aug 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/560385045'} bold={false}>怎么进行你的代码优化 & 编译器怎么优化你的代码</UrlLink>}/>
-                        <ListItem left={'Aug 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/552691239'} bold={false}>Spring Boot 使用 .env 文件实现“隐私信息配置”</UrlLink>}/>
-                        <ListItem left={'Jul 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/547390956'} bold={false}>微信小程序应用开发赛 —— 怎么至少不把一个产品做差</UrlLink>}/>
-                        <ListItem left={'May 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/509165186'} bold={false}>卷积神经网络（CNN）的基本原理与其在图像处理、自然语言处理中的应用</UrlLink>}/>
-                        <ListItem left={'May 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/508445805'} bold={false}>简述文本相似度概念与算法</UrlLink>}/>
-                        <ListItem left={'Mar 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/600540961'} bold={false}>Spring WebFlux 响应式定制 Redis 对指定数据类型的序列化与反序列化配置（例如 ObjectId、LocalDate）</UrlLink>}/>
+                        <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'}
+                                                                    bold={false}>关于“全局变量”对程序的上下文造成的全局“污染”</UrlLink>}/>
+                        <ListItem left={'Sep 2023'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/655182770'} bold={false}>Redis 分布式锁
+                                      Factory 模式 API 实现</UrlLink>}/>
+                        <ListItem left={'Aug 2023'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/649440256'} bold={false}>处理
+                                      ChatGPT 的 API HTTP 流式响应 & 超时控制</UrlLink>}/>
+                        <ListItem left={'Aug 2023'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/650602668'} bold={false}>GORM 使用真实
+                                      MySQL 进行 repo 层单元测试</UrlLink>}/>
+                        <ListItem left={'Jul 2023'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/642655472'} bold={false}>Go 阻塞式
+                                      select channel 替代长轮询</UrlLink>}/>
+                        <ListItem left={'Jul 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/642134590'}
+                                                                    bold={false}>图中给定两个节点，找出两点之间全部路径（非递归方法）</UrlLink>}/>
+                        <ListItem left={'Mar 2023'}
+                                  right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/617415742'} bold={false}>CS/SE
+                                      保研经验分享</UrlLink>&nbsp;(43 agreed, as of 2023.10.19)</div>}/>
+                        <ListItem left={'Mar 2023'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/613615100'} bold={false}>自动发布
+                                      Maven Package —— 基于 GitHub Actions 与 OSSRH（sonatype）</UrlLink>}/>
+                        <ListItem left={'Mar 2023'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/590967429'} bold={false}>通过
+                                      GitHub Actions 完成 Spring Boot 项目的 CI/CD（基于 Docker）</UrlLink>}/>
+                        <ListItem left={'Dec 2022'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/591189491'} bold={false}>什么是微服务动态更新
+                                      & 为什么要用 Version Consistency 进行动态更新</UrlLink>}/>
+                        <ListItem left={'Dec 2022'}
+                                  right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/589314371'} bold={false}>2022
+                                      技术年度复盘</UrlLink>&nbsp;(63 agreed, as of 2023.10.19)</div>}/>
+                        <ListItem left={'Oct 2022'}
+                                  right={<div><UrlLink url={'https://zhuanlan.zhihu.com/p/502719456'} bold={false}>2022
+                                      年计算机保研经历｜Rank
+                                      中游、无一作、竞赛少、无实习、无优质项目的中游选手｜天大云计算、南大软件所、中南计算机、中山计算机、中山软件、川大计算机</UrlLink>&nbsp;(102
+                                      agreed, as of 2023.10.19)</div>}/>
+                        <ListItem left={'Aug 2022'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/560385045'} bold={false}>怎么进行你的代码优化
+                                      & 编译器怎么优化你的代码</UrlLink>}/>
+                        <ListItem left={'Aug 2022'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/552691239'} bold={false}>Spring
+                                      Boot 使用 .env 文件实现“隐私信息配置”</UrlLink>}/>
+                        <ListItem left={'Jul 2022'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/547390956'} bold={false}>微信小程序应用开发赛
+                                      —— 怎么至少不把一个产品做差</UrlLink>}/>
+                        <ListItem left={'May 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/509165186'}
+                                                                    bold={false}>卷积神经网络（CNN）的基本原理与其在图像处理、自然语言处理中的应用</UrlLink>}/>
+                        <ListItem left={'May 2022'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/508445805'}
+                                                                    bold={false}>简述文本相似度概念与算法</UrlLink>}/>
+                        <ListItem left={'Mar 2022'}
+                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/600540961'} bold={false}>Spring
+                                      WebFlux 响应式定制 Redis 对指定数据类型的序列化与反序列化配置（例如
+                                      ObjectId、LocalDate）</UrlLink>}/>
                     </List>
                 </div>
 
