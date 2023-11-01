@@ -31,23 +31,23 @@ export default function Home() {
 
                 <div className={'flex flex-col items-center'}>
                     <div>
-                        <UrlLink url={'#education'} underline={false} fontSize={'text-sm'}>Education</UrlLink>
+                        <UrlLink url={'#education'} native={true} underline={false} fontSize={'text-sm'}>Education</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#work-experience'} underline={false} fontSize={'text-sm'}>Work
+                        <UrlLink url={'#work-experience'} native={true} underline={false} fontSize={'text-sm'}>Work
                             Experience</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#open-source'} underline={false} fontSize={'text-sm'}>Open Source
+                        <UrlLink url={'#open-source'} native={true} underline={false} fontSize={'text-sm'}>Open Source
                             Contributions</UrlLink>
                     </div>
                     <Br/>
                     <div>
-                        <UrlLink url={'#researches'} underline={false} fontSize={'text-sm'}>Researches</UrlLink>
+                        <UrlLink url={'#researches'} native={true} underline={false} fontSize={'text-sm'}>Researches</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#blogs'} underline={false} fontSize={'text-sm'}>Blogs</UrlLink>
+                        <UrlLink url={'#blogs'} native={true} underline={false} fontSize={'text-sm'}>Blogs</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#projects'} underline={false} fontSize={'text-sm'}>Projects</UrlLink>
+                        <UrlLink url={'#projects'} native={true} underline={false} fontSize={'text-sm'}>Projects</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#honors-awards'} underline={false} fontSize={'text-sm'}>Honors & Awards</UrlLink>
+                        <UrlLink url={'#honors-awards'} native={true} underline={false} fontSize={'text-sm'}>Honors & Awards</UrlLink>
                     </div>
                 </div>
 
