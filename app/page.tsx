@@ -272,6 +272,8 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/665557965'}
+                                                                    bold={false}>DieHard 问题 —— 状态机建模 & TLA+ 形式化验证</UrlLink>}/>
                         <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/667007734'}
                                                                     bold={false}>关于“接口幂等性”的通用性建模</UrlLink>}/>
                         <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'}
