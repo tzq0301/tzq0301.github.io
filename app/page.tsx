@@ -272,6 +272,8 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/667007734'}
+                                                                    bold={false}>关于“接口幂等性”的通用性建模</UrlLink>}/>
                         <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'}
                                                                     bold={false}>关于“全局变量”对程序的上下文造成的全局“污染”</UrlLink>}/>
                         <ListItem left={'Sep 2023'}
