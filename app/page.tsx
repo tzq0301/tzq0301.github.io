@@ -16,7 +16,7 @@ import Separator from "@/app/components/Separator";
 export default function Home() {
     return (
         <div className={"font-serif flex justify-center items-center bg-zinc-50"}>
-            <div className={"w-1/2"}>
+            <div className={"w-1/2 md:w-5/6"}>
                 <div className={"h-24"}></div>
 
                 <div>
