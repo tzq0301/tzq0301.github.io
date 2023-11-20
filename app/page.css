@@ -1,0 +1,11 @@
+@media screen and (orientation: portrait) {
+    #content-container {
+        width: 80%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #content-container {
+        width: 50%;
+    }
+}
