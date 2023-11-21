@@ -152,7 +152,7 @@ export default function Home() {
                     <Table>
                         <TableRow
                             left={
-                                <div>
+                                <div className={'break-all'}>
                                     <Bold>Juxue Technology</Bold>&nbsp;(Intern)
                                 </div>
                             }
@@ -168,7 +168,7 @@ export default function Home() {
                             }/>
                         <TableRow
                             left={
-                                <div>
+                                <div className={'break-all'}>
                                     <UrlLink url={'https://www.bytedance.com/'}
                                              underline={false}>ByteDance</UrlLink>&nbsp;(Intern)
                                 </div>
@@ -193,7 +193,7 @@ export default function Home() {
                     <Br/>
                     <Table>
                         <TableRow left={<UrlLink url={'https://github.com/dominikbraun/graph'}
-                                                 underline={false}>dominikbraun/graph</UrlLink>}
+                                                 underline={false}><div className={'break-all'}>dominikbraun/graph</div></UrlLink>}
                                   right={
                                       <div>
                                           <div>A library for creating <Bold>
@@ -223,7 +223,7 @@ export default function Home() {
                                       </div>
                                   }/>
                         <TableRow left={<UrlLink url={'https://github.com/redis/go-redis'}
-                                                 underline={false}>redis/go-redis</UrlLink>}
+                                                 underline={false}><div className={'break-all'}>redis/go-redis</div></UrlLink>}
                                   right={
                                       <div>
                                           <Bold>
