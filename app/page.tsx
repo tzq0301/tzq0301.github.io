@@ -275,6 +275,8 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672022693'}
+                                                                    bold={false}>赋能 Local Development：当 Spring Boot 遇上 Testcontainers</UrlLink>}/>
                         <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/665557965'}
                                                                     bold={false}>DieHard 问题 —— 状态机建模 & TLA+ 形式化验证</UrlLink>}/>
                         <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/667007734'}
