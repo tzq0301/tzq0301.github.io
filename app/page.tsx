@@ -275,6 +275,8 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672869541'}
+                                                                    bold={false}>Go: Allocation optimization in slog</UrlLink>}/>
                         <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672022693'}
                                                                     bold={false}>赋能 Local Development：当 Spring Boot 遇上 Testcontainers</UrlLink>}/>
                         <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/665557965'}
