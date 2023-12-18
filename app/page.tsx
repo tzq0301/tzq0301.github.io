@@ -34,7 +34,8 @@ export default function Home() {
 
                 <div className={'flex flex-col items-center'}>
                     <div>
-                        <UrlLink url={'#education'} native={true} underline={false} fontSize={'text-sm'}>Education</UrlLink>
+                        <UrlLink url={'#education'} native={true} underline={false}
+                                 fontSize={'text-sm'}>Education</UrlLink>
                         <Separator/>
                         <UrlLink url={'#work-experience'} native={true} underline={false} fontSize={'text-sm'}>Work
                             Experience</UrlLink>
@@ -44,13 +45,16 @@ export default function Home() {
                     </div>
                     <Br/>
                     <div>
-                        <UrlLink url={'#researches'} native={true} underline={false} fontSize={'text-sm'}>Researches</UrlLink>
+                        <UrlLink url={'#researches'} native={true} underline={false}
+                                 fontSize={'text-sm'}>Researches</UrlLink>
                         <Separator/>
                         <UrlLink url={'#blogs'} native={true} underline={false} fontSize={'text-sm'}>Blogs</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#projects'} native={true} underline={false} fontSize={'text-sm'}>Projects</UrlLink>
+                        <UrlLink url={'#projects'} native={true} underline={false}
+                                 fontSize={'text-sm'}>Projects</UrlLink>
                         <Separator/>
-                        <UrlLink url={'#honors-awards'} native={true} underline={false} fontSize={'text-sm'}>Honors & Awards</UrlLink>
+                        <UrlLink url={'#honors-awards'} native={true} underline={false} fontSize={'text-sm'}>Honors &
+                            Awards</UrlLink>
                     </div>
                 </div>
 
@@ -193,7 +197,9 @@ export default function Home() {
                     <Br/>
                     <Table>
                         <TableRow left={<UrlLink url={'https://github.com/dominikbraun/graph'}
-                                                 underline={false}><div className={'break-all'}>dominikbraun/graph</div></UrlLink>}
+                                                 underline={false}>
+                            <div className={'break-all'}>dominikbraun/graph</div>
+                        </UrlLink>}
                                   right={
                                       <div>
                                           <div>A library for creating <Bold>
@@ -223,7 +229,9 @@ export default function Home() {
                                       </div>
                                   }/>
                         <TableRow left={<UrlLink url={'https://github.com/redis/go-redis'}
-                                                 underline={false}><div className={'break-all'}>redis/go-redis</div></UrlLink>}
+                                                 underline={false}>
+                            <div className={'break-all'}>redis/go-redis</div>
+                        </UrlLink>}
                                   right={
                                       <div>
                                           <Bold>
@@ -235,7 +243,8 @@ export default function Home() {
                                                   <UrlLink
                                                       url={'https://github.com/redis/go-redis/pull/2753'}>PR#2753</UrlLink>:&nbsp;
                                                   <text>
-                                                      Support writing args with <text className={'italic'}>the pointer type of the simple data types</text> for the redis-protocol writer
+                                                      Support writing args with <text className={'italic'}>the pointer
+                                                      type of the simple data types</text> for the redis-protocol writer
                                                   </text>
                                               </li>
                                           </ul>
@@ -246,41 +255,20 @@ export default function Home() {
 
                 <div className={'h-14'}></div>
 
-                <div id={'researches'}>
-                    <div className={'text-2xl'}>Researches</div>
-                    <Br/>
-                    <Br/>
-                    <List>
-                        <ListItem left={'Jan 2021'}
-                                  right={
-                                      <div>
-                                          Liu S*, You Y*, <Bold>Tong Z</Bold>, Zhang L. <UrlLink
-                                          url={'https://pubmed.ncbi.nlm.nih.gov/34764986/'}
-                                          underline={false}>
-                                          Developing
-                                          an Embedding, Koopman and Autoencoder Technologies-Based Multi-Omics Time
-                                          Series Predictive Model (EKATP) for Systems Biology research.&nbsp;
-                                      </UrlLink>Front
-                                          Genet. 2021 Oct 26;12:761629. doi: 10.3389/fgene.2021.761629. PMID: 34764986;
-                                          PMCID: PMC8576451.
-                                      </div>
-                                  }/>
-                    </List>
-                </div>
-
-                <div className={'h-14'}></div>
-
                 <div id={'blogs'}>
                     <div className={'text-2xl'}>Blogs <text className={'text-base'}>(selected)</text></div>
                     <Br/>
                     <Br/>
                     <List>
                         <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672869541'}
-                                                                    bold={false}>Go: Allocation optimization in slog</UrlLink>}/>
+                                                                    bold={false}>Go: Allocation optimization in
+                            slog</UrlLink>}/>
                         <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672022693'}
-                                                                    bold={false}>赋能 Local Development：当 Spring Boot 遇上 Testcontainers</UrlLink>}/>
+                                                                    bold={false}>赋能 Local Development：当 Spring Boot
+                            遇上 Testcontainers</UrlLink>}/>
                         <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/665557965'}
-                                                                    bold={false}>DieHard 问题 —— 状态机建模 & TLA+ 形式化验证</UrlLink>}/>
+                                                                    bold={false}>DieHard 问题 —— 状态机建模 & TLA+
+                            形式化验证</UrlLink>}/>
                         <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/667007734'}
                                                                     bold={false}>关于“接口幂等性”的通用性建模</UrlLink>}/>
                         <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'}
@@ -336,6 +324,30 @@ export default function Home() {
                                   right={<UrlLink url={'https://zhuanlan.zhihu.com/p/600540961'} bold={false}>Spring
                                       WebFlux 响应式定制 Redis 对指定数据类型的序列化与反序列化配置（例如
                                       ObjectId、LocalDate）</UrlLink>}/>
+                    </List>
+                </div>
+
+                <div className={'h-14'}></div>
+
+                <div id={'researches'}>
+                    <div className={'text-2xl'}>Researches</div>
+                    <Br/>
+                    <Br/>
+                    <List>
+                        <ListItem left={'Jan 2021'}
+                                  right={
+                                      <div>
+                                          Liu S*, You Y*, <Bold>Tong Z</Bold>, Zhang L. <UrlLink
+                                          url={'https://pubmed.ncbi.nlm.nih.gov/34764986/'}
+                                          underline={false}>
+                                          Developing
+                                          an Embedding, Koopman and Autoencoder Technologies-Based Multi-Omics Time
+                                          Series Predictive Model (EKATP) for Systems Biology research.&nbsp;
+                                      </UrlLink>Front
+                                          Genet. 2021 Oct 26;12:761629. doi: 10.3389/fgene.2021.761629. PMID: 34764986;
+                                          PMCID: PMC8576451.
+                                      </div>
+                                  }/>
                     </List>
                 </div>
 
