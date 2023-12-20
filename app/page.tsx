@@ -260,6 +260,8 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/673212520'}
+                                                                    bold={false}>Raft 的三个子问题</UrlLink>}/>
                         <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672869541'}
                                                                     bold={false}>Go: Allocation optimization in
                             slog</UrlLink>}/>
