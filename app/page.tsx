@@ -12,10 +12,15 @@ import List from "@/app/components/list/List";
 import ListItem from "@/app/components/list/ListItem";
 import Underline from "@/app/components/Underline";
 import Separator from "@/app/components/Separator";
+import {blogs} from "@/app/model/blog";
 
 import './page.css';
 
 export default function Home() {
+    const blogItems = blogs.map(blog =>
+        <ListItem left={blog.time} right={<UrlLink url={blog.url} bold={false}>{blog.title}</UrlLink>} key={blog.title}/>
+    );
+
     return (
         <div className={"font-serif flex justify-center items-center bg-zinc-50"}>
             {/*<div className={"w-1/2"}>*/}
@@ -259,60 +264,7 @@ export default function Home() {
                     <div className={'text-2xl'}>Blogs <text className={'text-base'}>(selected)</text></div>
                     <Br/>
                     <Br/>
-                    <List>
-                        <ListItem left={'Mar 2024'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/685819561'}
-                                                                    bold={false}>分布式锁服务 Chubby 以及分布式锁实现 Redis、Zookeeper</UrlLink>}/>
-                        <ListItem left={'Jan 2024'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/676561818'}
-                                                                    bold={false}>使用 SSE & NATS 实现轻量级的聊天室</UrlLink>}/>
-                        <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/673212520'}
-                                                                    bold={false}>Raft 的三个子问题</UrlLink>}/>
-                        <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672869541'}
-                                                                    bold={false}>Go: Allocation optimization in
-                            slog</UrlLink>}/>
-                        <ListItem left={'Dec 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/672022693'}
-                                                                    bold={false}>赋能 Local Development：当 Spring Boot
-                            遇上 Testcontainers</UrlLink>}/>
-                        <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/665557965'}
-                                                                    bold={false}>DieHard 问题 —— 状态机建模 & TLA+
-                            形式化验证</UrlLink>}/>
-                        <ListItem left={'Nov 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/667007734'}
-                                                                    bold={false}>关于“接口幂等性”的通用性建模</UrlLink>}/>
-                        <ListItem left={'Oct 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/662629740'}
-                                                                    bold={false}>关于“全局变量”对程序的上下文造成的全局“污染”</UrlLink>}/>
-                        <ListItem left={'Sep 2023'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/655182770'} bold={false}>Redis 分布式锁
-                                      Factory 模式 API 实现</UrlLink>}/>
-                        <ListItem left={'Aug 2023'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/649440256'} bold={false}>处理
-                                      ChatGPT 的 API HTTP 流式响应 & 超时控制</UrlLink>}/>
-                        <ListItem left={'Aug 2023'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/650602668'} bold={false}>GORM 使用真实
-                                      MySQL 进行 repo 层单元测试</UrlLink>}/>
-                        <ListItem left={'Jul 2023'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/642655472'} bold={false}>Go 阻塞式
-                                      select channel 替代长轮询</UrlLink>}/>
-                        <ListItem left={'Jul 2023'} right={<UrlLink url={'https://zhuanlan.zhihu.com/p/642134590'}
-                                                                    bold={false}>图中给定两个节点，找出两点之间全部路径（非递归方法）</UrlLink>}/>
-                        <ListItem left={'Mar 2023'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/613615100'} bold={false}>自动发布
-                                      Maven Package —— 基于 GitHub Actions 与 OSSRH（sonatype）</UrlLink>}/>
-                        <ListItem left={'Mar 2023'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/590967429'} bold={false}>通过
-                                      GitHub Actions 完成 Spring Boot 项目的 CI/CD（基于 Docker）</UrlLink>}/>
-                        <ListItem left={'Dec 2022'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/591189491'} bold={false}>什么是微服务动态更新
-                                      & 为什么要用 Version Consistency 进行动态更新</UrlLink>}/>
-                        <ListItem left={'Aug 2022'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/560385045'} bold={false}>怎么进行你的代码优化
-                                      & 编译器怎么优化你的代码</UrlLink>}/>
-                        <ListItem left={'Jul 2022'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/547390956'} bold={false}>微信小程序应用开发赛
-                                      —— 怎么至少不把一个产品做差</UrlLink>}/>
-                        <ListItem left={'Mar 2022'}
-                                  right={<UrlLink url={'https://zhuanlan.zhihu.com/p/600540961'} bold={false}>Spring
-                                      WebFlux 响应式定制 Redis 对指定数据类型的序列化与反序列化配置（例如
-                                      ObjectId、LocalDate）</UrlLink>}/>
-                    </List>
+                    <List>{blogItems}</List>
                 </div>
 
                 <div className={'h-14'}></div>
