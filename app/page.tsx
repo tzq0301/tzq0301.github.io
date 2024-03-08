@@ -124,11 +124,11 @@ export default function Home() {
                                             Software</UrlLink>&nbsp;(in Chinese: 南京大学计算机系软件研究所)
                                     </div>
                                     <Br/>
-                                    <div>Advisor: <UrlLink url={'https://yiqinnju.github.io/'} bold={false}>Prof. Yi
-                                        Qin</UrlLink>,&nbsp;<UrlLink
-                                        url={'https://ics.nju.edu.cn/people/xiaoxingma/index.html'} bold={false}>Prof.
-                                        Xiaoxing Ma</UrlLink></div>
-                                    <Br/>
+                                    {/*<div>Advisor: <UrlLink url={'https://yiqinnju.github.io/'} bold={false}>Prof. Yi*/}
+                                    {/*    Qin</UrlLink>,&nbsp;<UrlLink*/}
+                                    {/*    url={'https://ics.nju.edu.cn/people/xiaoxingma/index.html'} bold={false}>Prof.*/}
+                                    {/*    Xiaoxing Ma</UrlLink></div>*/}
+                                    {/*<Br/>*/}
                                     2023.9 ~ now
                                 </div>
                             }/>
