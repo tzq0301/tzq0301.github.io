@@ -340,6 +340,7 @@ export default function Home() {
                     <Br/>
                     <Br/>
                     <List>
+                        <ListItem left={'Nov 2023'} right={<Bold>南京大学硕士<Underline>学业一等奖学金</Underline></Bold>}/>
                         <ListItem left={'Nov 2022'} right={<Bold>四川<Underline>省优秀毕业生</Underline></Bold>}/>
                         <ListItem left={'Nov 2022'} right={<Bold>四川大学优秀毕业生</Bold>}/>
                         <ListItem left={'Nov 2022'} right={'四川大学综合一等奖学金'}/>
