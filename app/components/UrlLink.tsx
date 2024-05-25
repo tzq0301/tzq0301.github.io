@@ -20,12 +20,16 @@ export default function UrlLink({
 
     let link = native ?
         (
-            <a className={className} href={url}>{children}</a>
+            <a
+                className={className}
+                href={url}
+            >{children}</a>
         ) :
         (
             <Link
                 className={className}
-                href={url}>
+                href={url}
+            >
                 {children}
             </Link>
         );
