@@ -162,6 +162,22 @@ export default function Home() {
                     <TableRow
                         left={
                             <div className={'break-all'}>
+                                <UrlLink url={'https://www.bytedance.com/'}
+                                         underline={false}>ByteDance</UrlLink>&nbsp;(Intern)
+                            </div>
+                        }
+                        right={
+                            <div>
+                                <div>后端研发实习生 <span
+                                    className={'font-bold'}>@</span> Data (MiniBase)
+                                </div>
+                                <Br/>
+                                <div>2024.3 ~ 2024.8<Separator/>Nanjing (China)</div>
+                            </div>
+                        }/>
+                    <TableRow
+                        left={
+                            <div className={'break-all'}>
                                 <Bold>Juxue Technology</Bold>&nbsp;(Intern)
                             </div>
                         }
@@ -213,8 +229,9 @@ export default function Home() {
                                       </div>
                                       <Br/>
                                       <ul className={'list-disc ms-4'}>
-                                          <li><UrlLink
-                                              url={'https://github.com/dominikbraun/graph/pull/137'}>PR#137</UrlLink>:&nbsp;
+                                          <li>
+                                              <UrlLink
+                                                  url={'https://github.com/dominikbraun/graph/pull/137'}>PR#137</UrlLink>:&nbsp;
                                               <text>List all paths between two given vertices, implemented by
                                                   dual-stack (which is non-recursive)
                                               </text>
@@ -222,8 +239,18 @@ export default function Home() {
                                                                    bold={false}>知乎：图中给定两个节点，找出两点之间全部路径（非递归方法）</UrlLink>
                                           </li>
                                           <Br/>
-                                          <li><UrlLink
-                                              url={'https://github.com/dominikbraun/graph/pull/86'}>PR#86</UrlLink>,&nbsp;
+                                          <li>
+                                              <UrlLink
+                                                  url={'https://github.com/dominikbraun/graph/pull/179'}>PR#179</UrlLink>:&nbsp;
+                                              <text>修复 <UrlLink
+                                                  url={'https://github.com/dominikbraun/graph/issues/177'}
+                                                  bold={false}>Issue#177</UrlLink> 中疑似“VertexAttributes缓存最后一次的值”的bug
+                                              </text>
+                                          </li>
+                                          <Br/>
+                                          <li>
+                                              <UrlLink
+                                                  url={'https://github.com/dominikbraun/graph/pull/86'}>PR#86</UrlLink>,&nbsp;
                                               <UrlLink
                                                   url={'https://github.com/dominikbraun/graph/pull/140'}>PR#140</UrlLink>:&nbsp;
                                               <text>修复并优化 GitHub Actions CI workflow、解决 golangci-lint
